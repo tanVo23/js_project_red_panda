@@ -1,0 +1,2 @@
+-Need to figure out how to make all three buttons work
+-find API data for images

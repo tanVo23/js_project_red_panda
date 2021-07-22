@@ -1,0 +1,92 @@
+body {
+	background-image: url('https://images.unsplash.com/photo-1540999758994-161f2ee6e1c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=746&q=80');
+	background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 75vh;
+	margin: 0;
+}
+
+.results {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.result {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: rgb(22, 12, 9);
+	border: 0;
+	border-radius: 4px;
+	color: rgb(250, 241, 241);
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
+
+#bid {
+
+    background-position: center;
+    align-items: center;
+   margin: auto;
+   height: 395px;
+   width: 300px;
+   margin-top: 50px;
+   background-color: white;
+   
+}
+
+.anda{
+    background-image: url('https://media.tenor.com/images/c8867492437d2ee722a81ee862d0eca9/tenor.gif');
+    background-color: rgb(234, 241, 241);
+    background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+h1 {
+    background-color: white;
+    text-align: bottom;
+color: rgb(240, 14, 14);
+font-size: large;
+display: flex;
+}
